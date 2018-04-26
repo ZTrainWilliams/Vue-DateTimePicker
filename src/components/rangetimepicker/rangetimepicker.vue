@@ -102,7 +102,7 @@
 	import "./rangetimepicker.css"
 	import { DatetimePicker } from 'mint-ui'
 
-	export default{		
+	export default{
 		components:{calendar,timeSpanPicker},
 		props:{
 			data :{
@@ -212,7 +212,7 @@
 						this.endValue = !!val ? val : "";
 						this.calendar.value = [val.split("-"),val.split("-")] ;
 					}
-                },  
+                },
                 deep:true, 
                 immediate:true
 			}
@@ -233,7 +233,7 @@
 					this.startValue = this.startValue + ' ' + this.startTimeValue;
 					this.endValue = this.endValue + ' ' + this.endTimeValue;
 				}
-				this.$emit('pushRangeDate', {starttime : this.startValue , endtime : this.endValue});			
+				this.$emit('pushRangeDate', {starttime : this.startValue , endtime : this.endValue});
 			},
 			filterTime(value){
 				let i = value.indexOf(':');
@@ -262,7 +262,7 @@
 			},
 			takeScrolling(box,scrollingType){//处理 ios scrolling：touch 与 fixed的不兼容
 			    if (document.getElementById(box)) {//id
-			        document.getElementById(box).style['-webkit-overflow-scrolling'] = scrollingType;   
+			        document.getElementById(box).style['-webkit-overflow-scrolling'] = scrollingType;
 			    }else{//class
 			         document.getElementsByClassName(box)[0].style['-webkit-overflow-scrolling'] = scrollingType;
 			    }
