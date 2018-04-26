@@ -40,7 +40,7 @@ datetimeSpan 	| 	日期时间(["00","30"])范围
 ## 依赖(dependent on)
 * mint-ui -> datetime-picker 、 picker
 
-## 复用
+## 复用(multiplex)
 * timepicker 由mint-ui -> picker 组装成，实现["00","30"]的选择
 * calendar （核心）可单独拆解使用
 
