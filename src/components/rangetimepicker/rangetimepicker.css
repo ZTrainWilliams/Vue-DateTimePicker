@@ -1,0 +1,206 @@
+	.rangedatetimeBox{
+		font-size: 0.213333rem;
+		width:100%;
+		box-sizing: border-box;
+		background-color: #fff;
+		overflow: hidden;
+		
+	}
+	.rangedatetimeBox .dateitem{
+		padding:0;
+	}
+	.calendar{
+		-webkit-overflow-scrolling: auto;
+	}
+	.pointer_none{
+		pointer-events:none !important;
+	}
+	.pointer_none .item>label>input{
+		color:#808080;
+	}
+	.calendar-dialog{
+		/*-webkit-overflow-scrolling: auto;*/
+	}
+	.calendar-dialog .header{
+		padding:0;
+	}
+	.calendar-dialog .header p{
+		width:auto;
+		line-height:  0.586667rem;
+		padding: 0;
+	}
+	.calendar-dialog .header_r a{
+		font-size:0.213333rem;
+	}
+	.rangeTime{
+		height:0.8rem;
+		background-color: #EFEFF4;
+		display: flex;
+		justify-content: space-around;
+		position: relative;
+		z-index: 1000;
+	}
+	.rangeTime div{
+		flex-grow: 1;
+		text-align:center;
+	}
+	.rangeTime div p{
+		line-height: 30px;
+		width:100%;
+	}
+	.calendar_weekTitle{
+		width:100%;
+		height:0.4rem;
+		display: flex;
+		justify-content: space-around;
+		background-color: #EFEFF4;
+		line-height: 0.4rem;
+		font-size:0.186667rem;
+	}
+	.fcolor9{
+		color:#999;
+	}
+	.calendar table thead tr{
+		border-bottom:1px solid#EDEDED;
+		color:#55A1F9;
+	}
+	.calendar table thead tr td{
+		font-size: 0.213333rem;
+	}
+	.pickerbox>input{
+		flex-grow:1;
+	}
+	.rangetaketab {
+		position: absolute; 
+		width: 100%;  
+		left: 0;
+		bottom:399px;
+		background: #fff;
+		text-align:center;
+		box-sizing:border-box;
+	}
+	.rangetimeTab{
+		/*position: absolute;*/
+	    left: 0;
+	    bottom: 4.453333rem;
+		height:0.88rem;
+		width:100%;
+		background-color: #fff;
+		text-align:center;
+		box-sizing: border-box;
+		display: flex;
+		justify-content:space-around;
+		border-top: 1px solid #ededed;
+	}
+	.rangeDay{
+		width:0.666667rem;
+		height:0.666667rem;
+		border-radius:50%;
+		background-color: #55A1F9;
+		color: #fff;
+		line-height: 0.666667rem;
+		margin:0.093333rem;
+	}
+	.tabevent {
+		width:42%;
+		display: flex;
+		flex-direction: column;
+	}
+	.rangedatetimeBox .tabevent p:first-child{
+		margin-top:0.04rem;
+		font-size: 0.16rem;
+		color:#999;
+	}
+	.rangedatetimeBox .tabevent p{
+		line-height: 0.346667rem;
+		width:100%;
+		text-align:center;
+		padding: 0;
+	}
+	.rangedatetimeBox .tabevent p span{
+		margin-left:0.053333rem;
+	}.color5{
+		color:#55A1F9;
+	}
+	.calendar-dialog{
+		position:absolute;
+		z-index:100;
+		width:100%;
+		top:0;
+		left:0;
+		bottom:0;
+		right: 0;
+		overflow:hidden;
+		display: flex;
+		flex-direction:column;
+		overflow: hidden;
+	}
+	.calendar-dialog-mask{
+		width:100%;
+		height:100%;
+		background-color: rgba(0,0,0,0.5);
+		position: relative;
+		overflow:hidden;
+	}
+	.calendar-dialog-body{
+		bottom:0;
+		z-index: 20;
+		position: absolute;
+		width:100%;
+	}
+	.rangetaketab ul .bacolor{
+		/*background: #55A1F9;
+		color:#fff;*/
+	}
+	.rangetaketab ul{
+		padding:0.106667rem 0 0.106667rem 0;
+		display: flex;
+		margin:0 auto;
+		justify-content:space-around;
+		/*background: #55A1F9;*/
+		border-bottom: 1px solid #ededed;
+	}
+	.rangetaketab li{
+		padding:0 0.346667rem;
+		line-height: 0.4rem;
+		border: 1px solid #fff;
+		display: inline-block;
+		color:#55A1F9;
+		background-color: #fff;
+		font-size: 0.213333rem;
+		border-radius:0.04rem;
+	}
+	.picker-slot-divider div{
+		font-weight: 600;
+	}
+	.calendar-dialog .picker-item{
+		font-size: 0.266667rem;
+	}
+	.calendar-dialog .picker-items{
+		padding-top:0.08rem;
+	}
+	.timeBox{
+		width:100%;
+		height:82%;
+		bottom:0.8rem;
+		margin-top:0.586667rem;
+		margin-bottom:-0.586667rem;
+		position: fixed;
+		top:0;
+		display: flex;
+		flex-direction: column;
+	}
+	.timeBox .timeBoxBg{
+		flex-grow:1;
+		background-color:rgba(0,0,0,0.5) ;
+	}
+	.rangedatetimeBox .calendar-dialog .mint-popup{
+		border-radius: 0;
+		position: absolute;
+		
+		z-index: 21;
+		width:100%;
+	}
+	.mint-datetime{
+		height:4.453333rem;
+	}

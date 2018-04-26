@@ -1,0 +1,43 @@
+.header{
+	width:100%;
+	line-height: 0.596667rem;
+	position: relative;
+	background:#55A1F9;
+	color:#fff;
+	font-size:0.213333rem;
+	box-sizing: border-box;
+	text-align:center;
+}
+.header	a{
+	display: block;
+	color:#fff;
+}
+.header	p{
+	margin:0;
+	height:0.586667rem;
+	color:#fff;
+}
+.header_l{
+	position:absolute;
+	top:0;
+	left:0.186667rem;
+	width:0.173333rem;
+	float:left;
+	line-height: 0.596667rem;
+	height:0.586667rem;
+	text-align:center;
+	width: 0.346667rem;
+}
+.header .header_l	a{
+	font-size:0.24rem;
+	font-weight: 900;	
+}
+.header_r{
+	position:absolute;
+	top:0;
+	right:0.186667rem;
+	color:#f60;
+	width:0.8rem;
+	font-size:0.173333rem;
+	float:right;
+}
