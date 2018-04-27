@@ -11,11 +11,7 @@
 </a>
 
 <a href="https://github.com/ZTrainWilliams/Vue-DateTimePicker" target="_blank">
-<<<<<<< HEAD
     <img src="https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/3.png" alt="时间选择"/>
-=======
-    <img src="https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/3.png" alt="时间选择"/>
->>>>>>> 42c6d8c8c1d5551e97032b882b4e3d12b7afb21e
 </a>
 <!-- ![ZTrain](https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/1.png "默认选择前")
 ![ZTrain](https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/2.png "日期选择")
@@ -69,4 +65,3 @@ npm run build
 
 ### 借鉴 
   [https://github.com/jinzhe/vue-calendar](https://github.com/jinzhe/vue-calendar "组件编写借鉴基础")
-  
