@@ -2,8 +2,6 @@
 
 > Vue.js 移动端滚动日期时间范围组件
 
-<img src="https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/1.png" alt="默认选择前"/>
-
 <a href="https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/1.png" target="_blank">
     <img src="https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/1.png" alt="默认选择前"/>
 </a>
