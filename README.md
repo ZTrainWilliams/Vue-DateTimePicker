@@ -3,19 +3,19 @@
 > Vue.js 移动端滚动日期时间范围组件
 
 <a href="https://github.com/ZTrainWilliams/Vue-DateTimePicker" target="_blank">
-    <img src="https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/1.jpg" alt="默认选择前"/>
+    <img src="https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/1.png" alt="默认选择前"/>
 </a>
 
 <a href="https://github.com/ZTrainWilliams/Vue-DateTimePicker" target="_blank">
-    <img src="https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/2.jpg" alt="日期选择"/>
+    <img src="https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/2.png" alt="日期选择"/>
 </a>
 
 <a href="https://github.com/ZTrainWilliams/Vue-DateTimePicker" target="_blank">
-    <img src="https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/3.jpg" alt="时间选择"/>
+    <img src="https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/3.png" alt="时间选择"/>
 </a>
-<!-- ![ZTrain](https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/1.jpg "默认选择前")
-![ZTrain](https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/2.jpg "日期选择")
-![ZTrain](https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/3.jpg "时间选择") -->
+<!-- ![ZTrain](https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/1.png "默认选择前")
+![ZTrain](https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/2.png "日期选择")
+![ZTrain](https://github.com/ZTrainWilliams/Vue-DateTimePicker/tree/master/src/assets/img/3.png "时间选择") -->
 
 ```vue
 <rangeTimePicker rangeType="day" :data="{startTitle:'开始时间',endTitle:'结束时间'}" v-model="startTimeValue0"></rangeTimePicker>
@@ -63,6 +63,6 @@ npm run build
 
 ```
 
-###借鉴
-[https://github.com/jinzhe/vue-calendar](https://github.com/jinzhe/vue-calendar "组件编写借鉴基础")
+### 借鉴 
+  [https://github.com/jinzhe/vue-calendar](https://github.com/jinzhe/vue-calendar "组件编写借鉴基础")
 	
