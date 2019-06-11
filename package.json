@@ -11,13 +11,11 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "jQuery": "^1.7.4",
     "mint-ui": "^2.2.13",
     "pinkie-promise": "^2.0.1",
     "vue": "^2.5.2",
     "vue-axios": "^2.1.0",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
